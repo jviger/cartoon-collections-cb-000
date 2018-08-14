@@ -15,7 +15,7 @@ end
 def long_planeteer_calls(calls)# code an argument here
   # Your code here
   long = false
-  if calls.any? {|x| x.size >= 4} 
+  if calls.any? {|x| x.size > 4} 
     long = true
   end
   long
